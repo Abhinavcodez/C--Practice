@@ -1,5 +1,4 @@
 //WAP to find the all prime numbers between 1 to 1000.
-
 #include<stdio.h>
 int main()
 {
@@ -19,7 +18,7 @@ int main()
 }  
        if(c==1)
        {
-          printf("%d\n",i);
+          printf("%d  ",i);
        }  
 
 }    

@@ -11,7 +11,6 @@ return i;
 }
     int printnum(int rows)
 {
-    rows (rows);
 while(rows>1)
 {
 return printf("%d \n %d",printnum(rows),printnum(rows-1));
