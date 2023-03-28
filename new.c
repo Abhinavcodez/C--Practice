@@ -62,7 +62,7 @@ int maxSubArraySum(int arr[], int n)
         curr_max = (curr_max + arr[i] > arr[i]) ? curr_max + arr[i] : arr[i];
         max_so_far = (max_so_far > curr_max) ? max_so_far : curr_max;
    }
-
+   
    return max_so_far;
 }
 
