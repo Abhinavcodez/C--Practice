@@ -4,7 +4,7 @@ int main()
 {
     char str[50];
     int i,length, flag = 1;
-    printf("Enter a string: ");
+    printf("Enter ba string: ");
     scanf("%s", str);
     length = strlen(str);
 
